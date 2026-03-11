@@ -40,24 +40,24 @@ This project demonstrates a modern **React + Spring Boot architecture**, secure 
 
 # ✨ Features
 
-### 👤 Authentication
+## 👤 Authentication
 
 * User Registration
 * Secure Login using JWT
 
-### 💼 Job Management
+## 💼 Job Management
 
 * Recruiters can post new jobs
 * Manage job listings
 * View applicants
 
-### 🔍 Job Search
+## 🔍 Job Search
 
 * Browse available jobs
 * Search jobs by keywords
 * Pagination for job listings
 
-### 📱 User Interface
+## 📱 User Interface
 
 * Responsive UI
 * Modern design with Tailwind CSS
@@ -66,12 +66,14 @@ This project demonstrates a modern **React + Spring Boot architecture**, secure 
 
 # 📂 Project Structure
 
+```
 job-portal-project
-
-backend → Spring Boot Backend
-frontend → React Frontend
-screenshots → UI Screenshots
-README.md → Project Documentation
+│
+├── backend        → Spring Boot Backend
+├── frontend       → React Frontend
+├── screenshots    → UI Screenshots
+└── README.md      → Project Documentation
+```
 
 ---
 
@@ -107,17 +109,19 @@ README.md → Project Documentation
 
 ## 1️⃣ Clone the Repository
 
+```
 git clone https://github.com/vishalpandey055/job-portal-project.git
-
 cd job-portal-project
+```
 
 ---
 
 ## 2️⃣ Run Backend (Spring Boot)
 
+```
 cd backend
-
 mvn spring-boot:run
+```
 
 Backend will start on:
 
@@ -127,11 +131,11 @@ http://localhost:8080
 
 ## 3️⃣ Run Frontend (React)
 
+```
 cd frontend
-
 npm install
-
 npm run dev
+```
 
 Frontend will start on:
 
@@ -141,7 +145,7 @@ http://localhost:5173
 
 # 🔗 API Architecture
 
-Frontend (React) → REST API → Spring Boot Backend → PostgreSQL Database
+React Frontend → REST API → Spring Boot Backend → PostgreSQL Database
 
 ---
 
@@ -157,4 +161,4 @@ https://github.com/vishalpandey055
 
 ---
 
-
+⭐ If you like this project, consider giving it a star.
